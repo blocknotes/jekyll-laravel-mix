@@ -55,3 +55,11 @@ minima:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - mix-manifest.json
+  - package.json
+  - src
+  - webpack.mix.js
+  - yarn.lock
